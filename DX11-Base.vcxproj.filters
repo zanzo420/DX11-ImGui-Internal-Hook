@@ -25,6 +25,9 @@
     <Filter Include="Resource Files\MinHook">
       <UniqueIdentifier>{d55590e2-04e5-427a-a959-6dcc763f2f71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\SDK">
+      <UniqueIdentifier>{376fc3d0-7bad-4e55-bcea-c1483c0bc91f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -83,6 +86,12 @@
     </ClInclude>
     <ClInclude Include="initialize.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\SDK\PropertyFixup.hpp">
+      <Filter>Resource Files\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\SDK\SDK.hpp">
+      <Filter>Resource Files\SDK</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

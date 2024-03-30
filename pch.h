@@ -35,4 +35,8 @@
 // MINHOOK
 #include "libs/MinHook/MinHook.h"
 
+// SDK
+#include "libs/SDK/PropertyFixup.hpp"
+#include "libs/SDK/SDK.hpp"
+
 #endif //PCH_H
