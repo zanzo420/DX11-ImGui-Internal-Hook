@@ -14,7 +14,7 @@ namespace SDK
 class UUniquelyIdentifiableDataAsset : public UDataAsset
 {
 public:
-	uint8                                        Pad_C6[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_50[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FGuid                                 UniqueID;                                          // 0x38(0x10)(ZeroConstructor, IsPlainOldData, NoDestructor, NonPIEDuplicateTransient, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 
 	static class UClass* StaticClass();
@@ -28,7 +28,7 @@ public:
 class UAssetLookupFake : public UObject
 {
 public:
-	uint8                                        Pad_C7[0x68];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_51[0x68];                                      // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UAssetLookupFake* GetDefaultObj();
@@ -51,7 +51,7 @@ public:
 class UAssetLookupSubSystem : public UEngineSubsystem
 {
 public:
-	uint8                                        Pad_C8[0x80];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_53[0x80];                                      // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UAssetLookupSubSystem* GetDefaultObj();
@@ -63,7 +63,7 @@ public:
 class UUniquelyIdentifiableAsset : public UObject
 {
 public:
-	uint8                                        Pad_C9[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_55[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FGuid                                 UniqueID;                                          // 0x30(0x10)(ZeroConstructor, IsPlainOldData, NoDestructor, NonPIEDuplicateTransient, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 
 	static class UClass* StaticClass();
@@ -87,7 +87,7 @@ public:
 class UUniquelyIdentifiablePrimaryDataAsset : public UPrimaryDataAsset
 {
 public:
-	uint8                                        Pad_CA[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5A[0x8];                                       // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FGuid                                 UniqueID;                                          // 0x38(0x10)(ZeroConstructor, IsPlainOldData, NoDestructor, NonPIEDuplicateTransient, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 
 	static class UClass* StaticClass();

@@ -14,15 +14,22 @@ namespace SDK
 // STRUCTS
 //---------------------------------------------------------------------------------------------------------------------
 
+// 0x0 (0x1 - 0x1)
+// ScriptStruct ABP_Swordsman_Dual__Dynamics.ABP_Swordsman_Dual__Dynamics_C.None
+struct FNone : public FAnimBlueprintMutableData
+{
+public:
+};
+
 // 0xCF (0xD0 - 0x1)
 // ScriptStruct ABP_Swordsman_Dual__Dynamics.ABP_Swordsman_Dual__Dynamics_C.AnimBlueprintGeneratedConstantData
 struct FAnimBlueprintGeneratedConstantData : public FAnimBlueprintConstantData
 {
 public:
-	uint8                                        Pad_A602[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_A749[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class FName                                  __NameProperty_13;                                 // 0x4(0x8)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	class FName                                  __NameProperty_14;                                 // 0xC(0x8)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_A603[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_A74A[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FAnimNodeFunctionRef                  __StructProperty_15;                               // 0x18(0x20)(BlueprintVisible, NoDestructor)
 	struct FAnimSubsystem_PropertyAccess         AnimBlueprintExtension_PropertyAccess;             // 0x38(0x80)(None)
 	struct FAnimSubsystem_Base                   AnimBlueprintExtension_Base;                       // 0xB8(0x18)(None)

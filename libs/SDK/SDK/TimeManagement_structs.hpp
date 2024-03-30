@@ -45,7 +45,7 @@ enum class ETimedDataInputState : uint8
 struct FTimedDataChannelSampleTime
 {
 public:
-	uint8                                        Pad_1761[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_12CB[0x18];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x8 (0x8 - 0x0)

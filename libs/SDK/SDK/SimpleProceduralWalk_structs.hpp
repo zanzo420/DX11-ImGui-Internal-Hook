@@ -47,7 +47,7 @@ public:
 	struct FBoneReference                        TipBone;                                           // 0x10(0x10)(Edit, NoDestructor, NativeAccessSpecifierPublic)
 	struct FVector                               Offset;                                            // 0x20(0x18)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bEnableRotationLimits;                             // 0x38(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_26FB[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BE0[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<float>                                RotationLimitPerJoints;                            // 0x40(0x10)(Edit, EditFixedSize, ZeroConstructor, NativeAccessSpecifierPublic)
 };
 
@@ -58,9 +58,9 @@ struct FAnimNode_SPW : public FAnimNode_SkeletalControlBase
 public:
 	bool                                         bDebug;                                            // 0xC8(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ESimpleProceduralWalk_MeshForwardAxis SkeletalMeshForwardAxis;                           // 0xC9(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_26FE[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BE3[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FBoneReference                        BodyBone;                                          // 0xCC(0x10)(Edit, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                        Pad_26FF[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BE5[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FSimpleProceduralWalk_Leg>     Legs;                                              // 0xE0(0x10)(Edit, ZeroConstructor, NativeAccessSpecifierPublic)
 	TArray<struct FSimpleProceduralWalk_LegGroup> LegGroups;                                         // 0xF0(0x10)(Edit, ZeroConstructor, NativeAccessSpecifierPublic)
 	float                                        StepHeight;                                        // 0x100(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -70,10 +70,10 @@ public:
 	float                                        MinStepDuration;                                   // 0x110(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        MinDistanceToUnplant;                              // 0x114(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        FixFeetTargetAfterPercent;                         // 0x118(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2700[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BEA[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FVector2D                             FeetTargetsInterpSpeeds;                           // 0x120(0x10)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        FeetTipBonesRotationInterpSpeed;                   // 0x130(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2701[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BEB[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class UCurveFloat*                           SpeedCurve;                                        // 0x138(0x8)(Edit, ZeroConstructor, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	class UCurveFloat*                           HeightCurve;                                       // 0x140(0x8)(Edit, ZeroConstructor, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        BodyBounceMultiplier;                              // 0x148(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -82,26 +82,26 @@ public:
 	float                                        BodyZOffset;                                       // 0x154(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bBodyRotateOnAcceleration;                         // 0x158(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bBodyRotateOnFeetLocations;                        // 0x159(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2703[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BEE[0x2];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        BodyRotationInterpSpeed;                           // 0x15C(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        BodyAccelerationRotationMultiplier;                // 0x160(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        BodyFeetLocationsRotationMultiplier;               // 0x164(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	struct FRotator                              MaxBodyRotation;                                   // 0x168(0x18)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic)
 	enum class ESimpleProceduralWalk_SolverType  SolverType;                                        // 0x180(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2705[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BF0[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        RadiusCheckMultiplier;                             // 0x184(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                        DistanceCheckMultiplier;                           // 0x188(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bStartFromTail;                                    // 0x18C(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2706[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BF1[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        Precision;                                         // 0x190(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        MaxIterations;                                     // 0x194(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ETraceTypeQuery                   TraceChannel;                                      // 0x198(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2707[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BF3[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        TraceLength;                                       // 0x19C(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                         bTraceComplex;                                     // 0x1A0(0x1)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2708[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_2BF5[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	float                                        TraceZOffset;                                      // 0x1A4(0x4)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_2709[0x118];                                   // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2BF6[0x118];                                   // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -117,7 +117,7 @@ public:
 struct FSimpleProceduralWalk_LegData
 {
 public:
-	uint8                                        Pad_270A[0x88];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2BF8[0x88];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x8 (0x8 - 0x0)
@@ -125,7 +125,7 @@ public:
 struct FSimpleProceduralWalk_LegGroupData
 {
 public:
-	uint8                                        Pad_270B[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2BF9[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0xE0 (0xE0 - 0x0)
@@ -133,7 +133,7 @@ public:
 struct FSPW_CCDIKChainLink
 {
 public:
-	uint8                                        Pad_270C[0xE0];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2BFB[0xE0];                                    // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

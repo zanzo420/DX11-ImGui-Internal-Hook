@@ -19,7 +19,7 @@ namespace SDK
 struct FScriptTypedElementHandle
 {
 public:
-	uint8                                        Pad_1340[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DDC[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x0 (0x0 - 0x0)
@@ -34,7 +34,7 @@ public:
 struct FTypedElementUObjectColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1342[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DDE[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x8 (0x8 - 0x0)
@@ -42,7 +42,7 @@ public:
 struct FTypedElementExternalObjectColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1343[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DDF[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x1 (0x1 - 0x0)
@@ -50,7 +50,7 @@ public:
 struct FTypedElementDataStorageTag
 {
 public:
-	uint8                                        Pad_1345[0x1];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE0[0x1];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -58,7 +58,7 @@ public:
 struct FTypedElementWidgetConstructor
 {
 public:
-	uint8                                        Pad_1346[0x10];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE1[0x10];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -82,7 +82,7 @@ public:
 struct FScriptTypedElementListProxy
 {
 public:
-	uint8                                        Pad_1347[0x10];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE2[0x10];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x0 (0x1 - 0x1)
@@ -104,7 +104,7 @@ public:
 struct FTypedElementRowReferenceColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1351[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE3[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -120,7 +120,7 @@ public:
 struct FTypedElementPackageLoadedPathColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1352[0xC];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE5[0xC];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x1 (0x1 - 0x0)
@@ -128,7 +128,7 @@ public:
 struct FTypedElementSelectionColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1353[0x1];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE6[0x1];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x10 (0x10 - 0x0)
@@ -136,7 +136,7 @@ public:
 struct FTypedElementSlateWidgetReferenceColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1354[0x10];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE7[0x10];                                     // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x0 (0x1 - 0x1)
@@ -159,7 +159,7 @@ public:
 struct FTypedElementClassTypeInfoColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1355[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DE8[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x8 (0x8 - 0x0)
@@ -167,7 +167,7 @@ public:
 struct FTypedElementScriptStructTypeInfoColumn : public FTypedElementDataStorageColumn
 {
 public:
-	uint8                                        Pad_1356[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_DF1[0x8];                                      // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 // 0x4 (0x4 - 0x0)

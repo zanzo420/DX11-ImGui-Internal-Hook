@@ -14,7 +14,7 @@ namespace SDK
 class UAppearanceComponent : public UPersistentDataComponent
 {
 public:
-	uint8                                        Pad_27C3[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2BDA[0x8];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UAppearanceComponent* GetDefaultObj();

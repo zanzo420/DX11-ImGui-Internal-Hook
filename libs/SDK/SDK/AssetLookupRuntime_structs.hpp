@@ -27,9 +27,9 @@ public:
 struct FUniquelyIdentifiableAssetReference
 {
 public:
-	uint8                                        Pad_CB[0x40];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5C[0x40];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FAssetLookupTableIndex                DataAssetIndex;                                    // 0x40(0x4)(Transient, NoDestructor, Protected, NativeAccessSpecifierProtected)
-	uint8                                        Pad_CC[0x4];                                       // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_5D[0x4];                                       // Fixing Size Of Struct [ Dumper-7 ]
 };
 
 }

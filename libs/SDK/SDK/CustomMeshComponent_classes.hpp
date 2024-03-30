@@ -14,7 +14,7 @@ namespace SDK
 class UCustomMeshComponent : public UMeshComponent
 {
 public:
-	uint8                                        Pad_2460[0x10];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_2AFF[0x10];                                    // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UCustomMeshComponent* GetDefaultObj();

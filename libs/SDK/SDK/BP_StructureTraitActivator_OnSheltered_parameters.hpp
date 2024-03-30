@@ -35,7 +35,7 @@ struct UBP_StructureTraitActivator_OnSheltered_C_ExecuteUbergraph_BP_StructureTr
 {
 public:
 	int32                                        EntryPoint;                                        // 0x0(0x4)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_7432[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_A5E5[0x4];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FStructureTrait                       K2Node_Event_Trait;                                // 0x8(0x68)(ConstParm, ContainsInstancedReference, HasGetValueTypeHash)
 };
 

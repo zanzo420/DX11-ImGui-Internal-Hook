@@ -14,7 +14,7 @@ namespace SDK
 class UANS_KnightSocketTrace_C : public UANS_CreatureSocketTrace_C
 {
 public:
-	uint8                                        Pad_9F7D[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_59DE[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FVector                               BoxShape;                                          // 0x128(0x18)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	struct FRotator                              Orientation;                                       // 0x140(0x18)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor)
 

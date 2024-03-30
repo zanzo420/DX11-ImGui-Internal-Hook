@@ -24,37 +24,37 @@ public:
 	class USkeletalMeshComponent*                PawnMesh1P;                                        // 0x670(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class USkeletalMeshComponent*                PawnMesh3P;                                        // 0x678(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	enum class E_PhysicalStrikeType              PhysicalStrikeType;                                // 0x680(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_6295[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5786[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	double                                       SwayPitchAmount;                                   // 0x688(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	double                                       SwayYawAmount;                                     // 0x690(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	double                                       SwayBounciness;                                    // 0x698(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         bEquipped;                                         // 0x6A0(0x1)(Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_6297[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5788[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FGameplayTag                          EquippedTag;                                       // 0x6A4(0x8)(Edit, BlueprintVisible, BlueprintReadOnly, Net, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash)
 	enum class EItemType                         ItemType;                                          // 0x6AC(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_6298[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5789[0x3];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TArray<struct FS_TechniqueGrantedAbilities>  GrantedTechniqueAbilities;                         // 0x6B0(0x10)(Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify)
 	TArray<struct FS_InputTechnique_Pair>        OverridenTechniques;                               // 0x6C0(0x10)(Edit, BlueprintVisible, Net, DisableEditOnInstance, RepNotify)
 	FMulticastInlineDelegateProperty_            OnEquipped;                                        // 0x6D0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnAsyncDataInitiailized;                           // 0x6E0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         bIsAsyncDataInitialized;                           // 0x6F0(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_629B[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578A[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            OnTechniquesUpdated;                               // 0x6F8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	TMap<enum class EInputActionTypes, struct FS_CachedEffectQueries> CachedCooldownEffectQueries;                       // 0x708(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	class UBP_MeleeComponent_C*                  MeleeComponent;                                    // 0x758(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	TArray<class UObject*>                       CachedAssets;                                      // 0x760(0x10)(Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                         AttemptedFinishLoadout;                            // 0x770(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_629E[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578B[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class USkeletalMesh*                         ItemMesh3P;                                        // 0x778(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	FMulticastInlineDelegateProperty_            OnDurabilityUpdated;                               // 0x780(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	bool                                         HasTriggeredAudioDurabilityBelowThreshold;         // 0x790(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_62A0[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578C[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            OnDurabilityNearBreaking;                          // 0x798(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnDurabilityDepleted;                              // 0x7A8(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	struct FItemInstanceDurabilityData           CachedDurabilityData;                              // 0x7B8(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	bool                                         HasTriggeredDurabilityDepleteAudio;                // 0x7C8(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                         ItemCurrentlyDisabled;                             // 0x7C9(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_62A3[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578D[0x6];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	FMulticastInlineDelegateProperty_            OnFuelUpdated;                                     // 0x7D0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnUnequipped;                                      // 0x7E0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
 	FMulticastInlineDelegateProperty_            OnPredictedDurabilityUpdated;                      // 0x7F0(0x10)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
@@ -63,11 +63,11 @@ public:
 	TMap<enum class ECostumeRegions, struct FResourceCustomizationData> MaterialOverridesUnloaded;                         // 0x860(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TMap<enum class ECostumeRegions, struct FResourceCustomizationData_Loaded> MaterialOverridenLoaded;                           // 0x8B0(0x50)(Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                         IsRangedWeapon;                                    // 0x900(0x1)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_62A9[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_578F[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	class ABP_LightweightAttachedItem_C*         FullbodyLightweight;                               // 0x908(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FItemInstanceFuelData                 CachedFuelData;                                    // 0x910(0x10)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor)
 	enum class EInputActionTypes                 SpellSlot;                                         // 0x920(0x1)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	uint8                                        Pad_62AC[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5790[0x7];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	struct FTimerHandle                          LightIntensityTimerHandle;                         // 0x928(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	struct FTimerHandle                          LightDurabilityTimerHandle;                        // 0x930(0x8)(Edit, BlueprintVisible, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UClass*                                LightComponentClass;                               // 0x938(0x8)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)

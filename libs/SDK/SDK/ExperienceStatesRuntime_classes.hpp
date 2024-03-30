@@ -30,9 +30,9 @@ class UExperienceStateCondition : public UConditionBehaviour
 public:
 	class UExperienceStateIDBuilder*             ExperienceState;                                   // 0x70(0x8)(Edit, ExportObject, ZeroConstructor, DisableEditOnTemplate, InstancedReference, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ENWXMathComparison                Comparator;                                        // 0x78(0x1)(Edit, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_808[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5F4[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        TargetValue;                                       // 0x7C(0x4)(Edit, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_809[0x20];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_5F5[0x20];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UExperienceStateCondition* GetDefaultObj();
@@ -91,9 +91,9 @@ public:
 class UExperienceStateDefinitionSubSystem : public UGameInstanceSubsystem
 {
 public:
-	uint8                                        Pad_80F[0x8];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_5FF[0x8];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	TSoftObjectPtr<class UExperienceStateDefinitionSubSystemConfig> ConfigurationAsset;                                // 0x38(0x28)(Config, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_810[0x68];                                     // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_600[0x68];                                     // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UExperienceStateDefinitionSubSystem* GetDefaultObj();
@@ -161,7 +161,7 @@ class UExperienceStateRequirement : public URequirement
 public:
 	class UExperienceStateIDBuilder*             ExperienceState;                                   // 0x28(0x8)(Edit, ExportObject, ZeroConstructor, DisableEditOnTemplate, InstancedReference, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	enum class ENWXMathComparison                Comparator;                                        // 0x30(0x1)(Edit, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_834[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_638[0x3];                                      // Fixing Size After Last Property  [ Dumper-7 ]
 	int32                                        TargetValue;                                       // 0x34(0x4)(Edit, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
 	static class UClass* StaticClass();
@@ -176,7 +176,7 @@ class UExperienceStateReward : public URewardBehaviour
 public:
 	class UExperienceStateIDBuilder*             ExperienceState;                                   // 0x30(0x8)(Edit, ExportObject, ZeroConstructor, DisableEditOnTemplate, InstancedReference, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	int32                                        Change;                                            // 0x38(0x4)(Edit, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                        Pad_836[0x4];                                      // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_63D[0x4];                                      // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UExperienceStateReward* GetDefaultObj();
@@ -188,10 +188,10 @@ public:
 class UExperienceStateTrackerComponent : public UPersistentDataComponent
 {
 public:
-	uint8                                        Pad_83A[0x38];                                     // Fixing Size After Last Property  [ Dumper-7 ]
+	uint8                                        Pad_647[0x38];                                     // Fixing Size After Last Property  [ Dumper-7 ]
 	TMap<struct FExperienceStateID, int32>       ExperienceStates;                                  // 0x130(0x50)(SaveGame, NativeAccessSpecifierPrivate)
 	struct FCompressedExperienceStates           CompressedExperienceStates;                        // 0x180(0x10)(Net, RepNotify, NativeAccessSpecifierPrivate)
-	uint8                                        Pad_83B[0x100];                                    // Fixing Size Of Struct [ Dumper-7 ]
+	uint8                                        Pad_648[0x100];                                    // Fixing Size Of Struct [ Dumper-7 ]
 
 	static class UClass* StaticClass();
 	static class UExperienceStateTrackerComponent* GetDefaultObj();
